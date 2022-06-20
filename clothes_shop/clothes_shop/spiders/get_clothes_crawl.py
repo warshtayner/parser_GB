@@ -10,7 +10,7 @@ class GetClothesCrawlSpider(CrawlSpider):
     start_urls = ['http://scrapingclub.com/exercise/list_basic/']
 
     rules = (
-        # Rule(LinkExtractor(restrict_xpaths="//a[contains(text(), 'Next')]"), follow=True),
+        Rule(LinkExtractor(restrict_xpaths="//a[contains(text(), 'Next')]"), follow=True),
         Rule(LinkExtractor(restrict_xpaths="//h4[@class='card-title']/a"), callback='parse_item', follow=True)
     )
 
@@ -21,5 +21,4 @@ class GetClothesCrawlSpider(CrawlSpider):
             'description' : response.xpath("//div[@class='card-body']/p/text()").get(),
             'img' : "https://scrapingclub.com/" + response.xpath("//img[@class='card-img-top img-fluid']/@srg").get()
         }
-
         return item
