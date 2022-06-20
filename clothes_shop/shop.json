@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Short Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/90008-E.jpg"
+    },
+    {
+        "name": "Patterned Slacks",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96436-A.jpg"
+    },
+    {
+        "name": "Short Chiffon Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93926-B.jpg"
+    },
+    {
+        "name": "Off-the-shoulder Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/90882-B.jpg"
+    },
+    {
+        "name": "V-neck Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93756-C.jpg"
+    },
+    {
+        "name": "Short Chiffon Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93926-C.jpg"
+    },
+    {
+        "name": "V-neck Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93756-B.jpg"
+    },
+    {
+        "name": "V-neck Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93756-D.jpg"
+    },
+    {
+        "name": "Short Lace Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96643-A.jpg"
+    },
+    {
+        "name": "Fitted Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94766-A.jpg"
+    },
+    {
+        "name": "V-neck Jumpsuit",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/91696-C.jpg"
+    },
+    {
+        "name": "Chiffon Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93745-A.jpg"
+    },
+    {
+        "name": "Skinny High Waist Jeans",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/65763-E.jpg"
+    },
+    {
+        "name": "Super Skinny High Jeans",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/70745-D.jpg"
+    },
+    {
+        "name": "Oversized Denim Jacket",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94706-A.jpg"
+    },
+    {
+        "name": "Short Sweatshirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96230-B.jpg"
+    },
+    {
+        "name": "Long-sleeved Jersey Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/73840-F.jpg"
+    },
+    {
+        "name": "Skinny High Waist Jeans",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/65763-A.jpg"
+    },
+    {
+        "name": "Short Sweatshirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96230-A.jpg"
+    },
+    {
+        "name": "Long-sleeved Jersey Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/73840-P.jpg"
+    },
+    {
+        "name": "Long-sleeved Jersey Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/73840-Q.jpg"
+    },
+    {
+        "name": "Jersey Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96113-C.jpg"
+    },
+    {
+        "name": "Short Sweatshirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96230-C.jpg"
+    },
+    {
+        "name": "Crinkled Flounced Blouse",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/00959-A.jpg"
+    },
+    {
+        "name": "Bib Overall Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94323-B.jpg"
+    },
+    {
+        "name": "Loose-knit Sweater",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/71342-J.jpg"
+    },
+    {
+        "name": "Skinny Regular Jeans",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94453-B.jpg"
+    },
+    {
+        "name": "Henley-style Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/34975-K.jpg"
+    },
+    {
+        "name": "Joggers",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/59851-A.jpg"
+    },
+    {
+        "name": "Skirt with Lacing",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93811-A.jpg"
+    },
+    {
+        "name": "Top with Tie",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94967-A.jpg"
+    },
+    {
+        "name": "Joggers",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/92905-A.jpg"
+    },
+    {
+        "name": "Chiffon Dress with Flounce",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/97504-A.jpg"
+    },
+    {
+        "name": "Skirt with Lacing",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93811-B.jpg"
+    },
+    {
+        "name": "V-neck Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/95168-D.jpg"
+    },
+    {
+        "name": "Hooded Jacket",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/52378-D.jpg"
+    },
+    {
+        "name": "Hooded Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/60135-A.jpg"
+    },
+    {
+        "name": "Lyocell-blend Blouse",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/91865-A.jpg"
+    },
+    {
+        "name": "Bib Overall Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94323-A.jpg"
+    },
+    {
+        "name": "Wide-leg Pants",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/92942-B.jpg"
+    },
+    {
+        "name": "Ankle-length Slim-fit Pants",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93270-A.jpg"
+    },
+    {
+        "name": "Short Sweatshirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96230-D.jpg"
+    },
+    {
+        "name": "V-neck Blouse",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/97571-B.jpg"
+    },
+    {
+        "name": "Short Skirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/92740-A.jpg"
+    },
+    {
+        "name": "Mesh T-shirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94984-A.jpg"
+    },
+    {
+        "name": "Blouse with Embroidery",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96236-C.jpg"
+    },
+    {
+        "name": "Wide-cut Cotton Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/99663-A.jpg"
+    },
+    {
+        "name": "Pleated Skirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/00268-B.jpg"
+    },
+    {
+        "name": "Coat",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/98209-A.jpg"
+    },
+    {
+        "name": "Wide-leg Pants",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93158-A.jpg"
+    },
+    {
+        "name": "Top",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/00948-B.jpg"
+    },
+    {
+        "name": "Knit Mohair-blend Sweater",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/94321-B.jpg"
+    },
+    {
+        "name": "Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/98086-A.jpg"
+    },
+    {
+        "name": "T-shirt with Embroidery",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/01007-C.jpg"
+    },
+    {
+        "name": "Blouse with Ruffled Collar",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/98894-A.jpg"
+    },
+    {
+        "name": "Pants",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/00286-B.jpg"
+    },
+    {
+        "name": "Jersey Dress",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96113-B.jpg"
+    },
+    {
+        "name": "T-shirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96771-B.jpg"
+    },
+    {
+        "name": "T-shirt",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/96771-A.jpg"
+    },
+    {
+        "name": "Blazer",
+        "price": null,
+        "img": "https://scrapingclub.com//static/img/93086-B.jpg"
+    }
+]

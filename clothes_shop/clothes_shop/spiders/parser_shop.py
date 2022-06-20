@@ -1,8 +1,8 @@
 import scrapy
 
 
-class GetClothesSpider(scrapy.Spider):
-    name = 'get_clothes'
+class ParserShopSpider(scrapy.Spider):
+    name = 'parser_shop'
     allowed_domains = ['scrapingclub.com']
     start_urls = ['https://scrapingclub.com/exercise/list_basic/']
 
@@ -19,3 +19,4 @@ class GetClothesSpider(scrapy.Spider):
         if next_page:
             next_page_url = response.urljoin(next_page)
             yield scrapy.Request(url=next_page_url, callback=self.parse)
+
