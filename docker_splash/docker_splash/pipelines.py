@@ -6,34 +6,35 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+import sqlite3
 
 
 class DockerSplashPipeline:
 
     def open_spider(self, spider):
-        self.conection = sqlite3.connect('scrapy_shop')
+        self.conection = sqlite3.connect('scrapy_shop.db')
         self.cursor = self.conection.cursor()
 
 
     def process_item(self, item, spider):
         create_query = """
-            CREATE TABLE IF NOT EXISTS shop{
+            CREATE TABLE IF NOT EXISTS shop(
                 title TEXT,
                 price TEXT,
                 description TEXT,
                 image TEXT
-            }
+            )
         """
 
         self.cursor.execute(create_query)
         self.conection.commit()
 
         save_query= """
-            INSERT INTO shop{title, price, description, image,}
-            VALUES {?,?,?,?}
+            INSERT INTO shop(title, price, description, image)
+            VALUES (?,?,?,?)
         """
 
-        self.cursor.execute(save_query, (item.get('title', 0), item.get('image'), item.get('price')))
+        self.cursor.execute(save_query, (item.get('title'), item.get('price'), item.get('description'), item.get('img')))
         self.conection.commit()
 
 
