@@ -15,9 +15,9 @@ class CrowlShopSpider(CrawlSpider):
 
     def parse_item(self, response):
         item = {
-            'name' : response.xpath("//div[@class='card-body']/h3/text()").get(),
+            'name' : response.xpath("//h3[@class='card-title']/text()").get(),
             'price': response.xpath("//div[@class='card-body']/h4/text()").get(),
-            'description' : response.xpath("//div[@class='card-body']/p/text()").get(),
+            'description' : response.xpath("//p[class='card-text']/text()").get(),
             'img' : "https://scrapingclub.com/" + response.xpath("//img[@class='card-img-top img-fluid']/@src").get()
         }
         return item
