@@ -17,7 +17,7 @@ class CrowlShopSpider(CrawlSpider):
         item = {
             'name' : response.xpath("//h3[@class='card-title']/text()").get(),
             'price': response.xpath("//div[@class='card-body']/h4/text()").get(),
-            'description' : response.xpath("//p[class='card-text']/text()").get(),
-            'img' : "https://scrapingclub.com/" + response.xpath("//img[@class='card-img-top img-fluid']/@src").get()
+            'description' : response.xpath("//p[@class='card-text']/text()").get(),
+            'img' : response.urljoin(response.xpath("//img[@class='card-img-top img-fluid']/@src").get())
         }
         return item
