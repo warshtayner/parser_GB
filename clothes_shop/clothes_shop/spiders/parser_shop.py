@@ -12,7 +12,7 @@ class ParserShopSpider(scrapy.Spider):
             yield {
                 'name' : clothe.xpath(".//h4[@class='card-title']/a/text()").get(),
                 'price': clothe.xpath(".//div[@class='card']/h5/text()").get(),
-                'img' : "https://scrapingclub.com/" + clothe.xpath(".//div[@class='card']/a/img/@src").get()
+                'img' : response.urljoin(clothe.xpath(".//div[@class='card']/a/img/@src").get())
             }
         
         next_page = response.xpath("//a[contains(text(), 'Next')]/@href").get()
