@@ -8,4 +8,3 @@
 
 - [./docer_splash](https://github.com/warshtayner/parser_GB/tree/main/doce_splash) - работа с SQLite3 в framework Scrapy и подгрузка сайтов с JavaScript через инструменты splash и Docker
 
-
